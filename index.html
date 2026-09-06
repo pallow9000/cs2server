@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PALLOW PLAYIT+ | Servidor CS2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topbar">
+        <div class="brand">
+            <div class="brand-mark">P+</div>
+            <div>
+                <strong>PALLOW PLAYIT+</strong>
+                <span>CS2 COMMUNITY SERVER</span>
+            </div>
+        </div>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#como-jogar">Como Jogar</a>
+            <a href="#comandos">Comandos</a>
+            <a href="#atualizacoes">Atualizações</a>
+        </nav>
+
+        <a class="connect-small" href="steam://rungameid/730//+connect%2069.9.190.18:1031">Conectar</a>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+                <p class="eyebrow">SERVIDOR COMUNITÁRIO • CS2</p>
+                <h1>Jogue do seu jeito.</h1>
+                <p class="hero-text">
+                    Um servidor feito para jogar, treinar e se divertir com a comunidade.
+                    Veja como entrar, confira os comandos e acompanhe cada atualização.
+                </p>
+
+                <div class="hero-buttons">
+                    <a class="btn primary" href="steam://rungameid/730//+connect%2069.9.190.18:1031">
+                        <span>▶</span> Conectar ao servidor
+                    </a>
+                    <a class="btn secondary" href="#como-jogar">Como jogar ↓</a>
+                </div>
+
+                <div class="server-status">
+                    <span class="status-dot"></span>
+                    <div>
+                        <strong>Servidor online</strong>
+                        <small>connect.pallow.playit.plus:1031</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-card">
+                <div class="card-top">
+                    <span>CS2</span>
+                    <span class="live">● LIVE</span>
+                </div>
+                <div class="radar">
+                    <div class="radar-ring r1"></div>
+                    <div class="radar-ring r2"></div>
+                    <div class="radar-line"></div>
+                    <div class="radar-point p1"></div>
+                    <div class="radar-point p2"></div>
+                    <div class="radar-point p3"></div>
+                </div>
+                <div class="card-bottom">
+                    <strong>PALLOW PLAYIT+</strong>
+                    <span>COMMUNITY SERVER</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="como-jogar">
+            <div class="section-heading">
+                <p class="eyebrow">PRIMEIROS PASSOS</p>
+                <h2>Como Jogar</h2>
+                <p>É simples. Copie o IP, abra o CS2 e conecte-se ao servidor.</p>
+            </div>
+
+            <div class="steps">
+                <article class="step">
+                    <span class="step-number">01</span>
+                    <h3>Abra o CS2</h3>
+                    <p>Inicie o Counter-Strike 2 pela Steam normalmente.</p>
+                </article>
+                <article class="step">
+                    <span class="step-number">02</span>
+                    <h3>Abra o console</h3>
+                    <p>Ative o console de desenvolvedor e pressione <kbd>~</kbd>.</p>
+                </article>
+                <article class="step">
+                    <span class="step-number">03</span>
+                    <h3>Digite o comando</h3>
+                    <p>Use o comando abaixo para entrar diretamente.</p>
+                    <code>connect pallow.playit.plus:1031</code>
+                </article>
+            </div>
+
+            <div class="connect-box">
+                <div>
+                    <span class="label">IP DO SERVIDOR</span>
+                    <strong>connect pallow.playit.plus:1031</strong>
+                </div>
+                <button class="copy-btn" onclick="copyIP()">Copiar IP</button>
+            </div>
+        </section>
+
+        <section class="section dark-section" id="comandos">
+            <div class="section-heading">
+                <p class="eyebrow">GUIA DO SERVIDOR</p>
+                <h2>Comandos</h2>
+                <p>Digite os comandos no chat geral <b>(Y)</b> ou no chat de time <b>(U)</b>.</p>
+            </div>
+
+            <div class="commands-layout">
+                <div class="command-list">
+                    <article class="command">
+                        <div>
+                            <code>!ajuda</code>
+                            <p>Mostra todos os comandos disponíveis.</p>
+                        </div>
+                        <span>01</span>
+                    </article>
+
+                    <article class="command">
+                        <div>
+                            <code>!comp</code>
+                            <p>Muda para o modo competitivo.</p>
+                        </div>
+                        <span>02</span>
+                    </article>
+
+                    <article class="command">
+                        <div>
+                            <code>!treino</code>
+                            <p>Muda para o modo treino.</p>
+                        </div>
+                        <span>03</span>
+                    </article>
+
+                    <article class="command">
+                        <div>
+                            <code>!dm</code>
+                            <p>Muda para o modo mata-mata.</p>
+                        </div>
+                        <span>04</span>
+                    </article>
+
+                    <article class="command">
+                        <div>
+                            <code>!map "nome do mapa"</code>
+                            <p>Muda para o mapa selecionado.</p>
+                        </div>
+                        <span>05</span>
+                    </article>
+
+                    <article class="command">
+                        <div>
+                            <code>!r</code>
+                            <p>Joga a última granada novamente.</p>
+                        </div>
+                        <span>06</span>
+                    </article>
+
+                    <article class="command">
+                        <div>
+                            <code>!Smoke</code>
+                            <p>Acelera o tempo para apagar a smoke.</p>
+                        </div>
+                        <span>07</span>
+                    </article>
+                </div>
+
+                <aside class="tip-card">
+                    <span class="tip-icon">?</span>
+                    <p class="eyebrow">DICA</p>
+                    <h3>Não sabe qual comando usar?</h3>
+                    <p>Digite <code>!ajuda</code> dentro do servidor para abrir a lista de comandos disponíveis.</p>
+                </aside>
+            </div>
+        </section>
+
+        <section class="section updates" id="atualizacoes">
+            <div class="section-heading">
+                <p class="eyebrow">CHANGELOG</p>
+                <h2>Atualizações</h2>
+                <p>Um histórico das mudanças do servidor, inspirado na forma como a Steam apresenta seus patches.</p>
+            </div>
+
+            <article class="patch latest">
+                <div class="patch-version">
+                    <span>ATUAL</span>
+                    <strong>v1.4.0</strong>
+                    <small>02 SET 2026</small>
+                </div>
+                <div class="patch-content">
+                    <h3>Nova atualização do servidor</h3>
+                    <p class="patch-intro">Melhorias gerais de gameplay, novos comandos e ajustes nos modos.</p>
+                    <div class="change-grid">
+                        <div>
+                            <span class="change-tag added">ADICIONADO</span>
+                            <p>Novo sistema de troca de mapas.</p>
+                        </div>
+                        <div>
+                            <span class="change-tag changed">ALTERADO</span>
+                            <p>Tempo de preparação reduzido.</p>
+                        </div>
+                        <div>
+                            <span class="change-tag fixed">CORRIGIDO</span>
+                            <p>Problema ao reiniciar algumas partidas.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="patch">
+                <div class="patch-version">
+                    <strong>v1.3.2</strong>
+                    <small>25 AGO 2026</small>
+                </div>
+                <div class="patch-content">
+                    <h3>Correções e balanceamento</h3>
+                    <p>Correções menores e ajustes no modo treino.</p>
+                </div>
+            </article>
+
+            <article class="patch">
+                <div class="patch-version">
+                    <strong>v1.3.0</strong>
+                    <small>18 AGO 2026</small>
+                </div>
+                <div class="patch-content">
+                    <h3>Modo treino atualizado</h3>
+                    <p>Novas opções para testar granadas e praticar no servidor.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <strong>PALLOW PLAYIT+</strong>
+        <span>CS2 Community Server</span>
+        <p>© 2026 • Feito para a comunidade.</p>
+    </footer>
+
+    <div id="toast">IP copiado!</div>
+    <script src="script.js"></script>
+</body>
+</html>
