@@ -1,5 +1,5 @@
 function copyIP() {
-    const ip = "connect pallow.playit.plus:1031";
+    const ip = "connect pallow.playit.plus:4494";
 
     navigator.clipboard.writeText(ip).then(() => {
         const toast = document.getElementById("toast");
