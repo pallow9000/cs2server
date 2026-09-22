@@ -283,6 +283,13 @@ kbd {
 .tip-card h3 { font-size: 20px; line-height: 1.2; margin: 8px 0 12px; }
 .tip-card > p:last-child { color: var(--muted); font-size: 15px; }
 .tip-card code { color: var(--accent-2); }
+.tip-image {
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 8px;
+    margin: 16px auto 0;
+    display: block;
+}
 
 .updates { background: #0b0d10; }
 .patch {
@@ -375,7 +382,9 @@ font-size: 18px;
 font-weight: 800;
 
 
+
 }
+
 
 .warning-content {
 flex: 1;
