@@ -169,16 +169,29 @@
         </section>
 
 
-        <section class="section skins-section" id="skins">
-            <div class="section-heading">
-                <p class="eyebrow">PERSONALIZAÇÃO</p>
-                <div class="skins-title-row">
-                    <h2>Skins</h2>
-                    <a class="skins-btn" href="https://skins.servercs2pallow.com/index.php">Customizar skins</a>
-                    <div class="skins-foto"><img src="abaskin.png" alt=""></div>
-                </div>
-                <p>Escolha as skins das suas armas e facas e use elas dentro do servidor.</p>
+    <section class="section skins-section" id="skins">
+    <video class="skins-bg-video" autoplay muted loop playsinline>
+        <source src="skinvid.webm" type="video/webm">
+    </video>
+
+    <div class="skins-bg-overlay"></div>
+
+    <div class="skins-content">
+        <div class="section-heading">
+            <p class="eyebrow">PERSONALIZAÇÃO</p>
+
+            <div class="skins-title-row">
+                <h2>Skins</h2>
+                <a class="skins-btn" href="https://skins.servercs2pallow.com/index.php">
+                    Customizar skins
+                </a>
             </div>
+
+            <p>Escolha as skins das suas armas e facas e use elas dentro do servidor.</p>
+        </div>
+
+  
+</div>
 
             <div class="skins-stack">
 
@@ -188,17 +201,17 @@
                         <article class="step">
                             <span class="step-number">01</span>
                             <h3>Entre com a Steam</h3>
-                            <p>No site de skins, faça login com a sua conta Steam para suas escolhas ficarem salvas.</p>
+                            <p>No site de skins, faça login com a sua conta Steam para suas escolhas ficarem salvas</p>
                         </article>
                         <article class="step">
                             <span class="step-number">02</span>
                             <h3>Escolha suas skins</h3>
-                            <p>Selecione a skin de cada arma e, se quiser, ajuste o desgaste e o seed em <kbd>Settings</kbd>.</p>
+                            <p>Selecione a skin de cada arma e, se quiser, ajuste o Float e Pattern em <kbd>Modificar</kbd>.</p>
                         </article>
                         <article class="step">
                             <span class="step-number">03</span>
                             <h3>Jogue no servidor</h3>
-                            <p>As skins carregam ao entrar. Se alguma não aparecer, digite <kbd>!wp</kbd> no chat.</p>
+                            <p>As skins carregam ao entrar, Se alguma não aparecer, digite <kbd>!wp</kbd> no chat.</p>
                         </article>
                     </div>
                 </div>
@@ -209,17 +222,17 @@
                         <article class="step">
                             <span class="step-number">TR e CT</span>
                             <h3>Um loadout por lado</h3>
-                            <p>Cada lado tem a sua própria seleção, então você pode usar skins diferentes como TR e como CT. Armas exclusivas de um lado, como AK-47 e M4, valem mesmo se você pegar do chão.</p>
+                            <p>Cada lado possui seu proprio equipamento, entao escolha um kit de skins para cada lado que voce vá jogar</p>
                         </article>
                         <article class="step">
                             <span class="step-number">Facas</span>
                             <h3>Modelo e skins da faca</h3>
-                            <p>O modelo da faca é escolhido no topo de cada lado, e as skins dela ficam na aba "Skins de faca", que abre e fecha.</p>
+                            <p>As skins sao Separadas dos modelos, selecione uma skin para cada modelo de Faca</p>
                         </article>
                         <article class="step">
                             <span class="step-number">Wear e seed</span>
-                            <h3>Desgaste e padrão</h3>
-                            <p>Em Settings você escolhe o desgaste, de Factory New a Battle-Scarred, e o seed (de 0 a 1000), que muda o padrão da skin.</p>
+                            <h3>Float e Pattern</h3>
+                            <p>Em Modificar você escolhe o desgaste, de Nova de fabrica a veterana de guerra, e o Pattern (de 0 a 1000), que muda o padrão da skin</p>
                         </article>
                     </div>
                 </div>
@@ -237,6 +250,18 @@
                             <div>
                                 <code>!skins</code>
                                 <p>Muda a Skin de certa Arma/Faca selecionada</p>
+                            </div>
+                        </article>
+                        <article class="command skins-cmd">
+                            <div>
+                                <code>!knife</code>
+                                <p>Muda o modelo de Faca selecionado</p>
+                            </div>
+                        </article>
+                        <article class="command skins-cmd">
+                            <div>
+                                <code>!gloves</code>
+                                <p>Muda o modelo e skins de Luvas selecionados</p>
                             </div>
                         </article>
                     </div>
@@ -265,15 +290,15 @@
                 <div class="patch-version">
                 
                     <strong>Ultima Atualização</strong>
-                    <small>22 SET 2026</small>
+                    <small>08 OUT 2026</small>
                 </div>
                 <div class="patch-content">
-                    <h3>Melhorias Gerais no Servidor</h3>
+                    <h3>Página para Skins no Site</h3>
                     <p class="patch-intro"></p>
                     <div class="change-grid">
                         <div>
-                            <span class="change-tag added">Alterado</span>
-                            <p>PC do Servidor Atualizado de 4GB para 24GB
+                            <span class="change-tag added">Adição</span>
+                            <p>Adicionado uma página exclusiva a Skins, selecione direto do navegador para aplicar no seu jogo sem precisar modificar in-game
                           
                             </p>
                         </div>
@@ -357,27 +382,7 @@
 
     
 
-    <article class="warning-card">
-        <div class="warning-icon">i</div>
-
-        <div class="warning-content">
-            <div class="warning-header">
-                <div>
-                    <h3>Segurança acima de Tudo</h3>
-                </div>
-            </div>
-
-            <p>
-                Este servidor utiliza banco de dados (SQL), onde informações
-                de jogadores são armazenadas. Caso haja algum vazamento,
-                me responsabilizo totalmente por isso. Creio que essas
-                informações não sejam de alto risco e tentarei manter tudo
-                o mais seguro possível para todos.
-            </p>
-        </div>
-    </article>
-
-
+  
 </div>
 
 
